@@ -1,0 +1,17 @@
+*{
+  scroll-behavior: smooth;
+  outline: none; border: none;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(assets/fonts/font_style/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: poppins-light;
+  src: url(assets/fonts/font_style/Poppins-Light.ttf);
+}
+

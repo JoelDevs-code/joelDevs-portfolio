@@ -1,0 +1,93 @@
+*{
+  scroll-behavior: smooth;
+  outline: none; border: none;
+  list-style: none;
+  font-family: poppins;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(assets/fonts/font_style/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: poppins-mid;
+  src: url(assets/fonts/font_style/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: bajj;
+  src: url(../assets/fonts/font_style/BaiJamjuree-Medium.ttf);
+}
+
+.main--header{z-index: 999;}
+
+.main--header-wrapper{
+  border-radius: 10.5rem;
+  font-family: bajj !important;
+  backdrop-filter: blur(10px);
+  background-image: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) 
+  -61.8%, rgba(204, 235, 235, 0.01) 100%);
+  border: 0.1rem rgba(255, 255, 255, 0.1) solid;
+}
+
+.logo-img{
+  border-radius: 50%;
+  overflow: hidden; 
+  width: 3rem; height: 3rem;
+}
+.logo-txt span{letter-spacing: 0.1rem;}
+
+
+.main--navigation li{
+  margin: 0 0.5rem;
+  display: inline-block;
+  transition: 0.30s all ease-in-out;
+}
+
+.main--navigation li:hover{color: #45e77b;}
+
+.build--btn{
+  border-radius: 10rem;
+  background: #45e77b;
+  width: 9rem; height: 3.3rem;
+  transition: 0.30s all ease-in-out;
+}
+
+.build--btn:hover{
+  background: #3ace6b;
+}
+
+.menu--btn{display: none;}
+
+@media (max-width: 1010px) {
+  
+  .main--navigation{
+    z-index: 99 !important; 
+    display: none !important; right: 0; top: 6.5rem;
+    border-radius: 0.5rem; margin-right: 2rem;
+    width: auto; padding: 0.5rem 1rem; position: absolute;
+    /* background-image: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) 
+    -61.8%, rgba(204, 235, 235, 0.01) 100%); */
+    background: #111;
+    backdrop-filter: blur(10px) !important;
+    border: 0.1rem rgba(255, 255, 255, 0.1) solid;
+    
+  }
+
+
+  .main--navigation-on{display: block !important;}
+  .main--navigation li{
+    display: block; line-height: 3rem;
+  }
+
+  .build--btn{display: none;}
+  .menu--btn{display: block; margin-right: 2rem;}
+
+  #close_menu{display: none;}
+}
+
+@media (max-width: 700px) {
+  .main--header{padding: 2rem 1rem !important;}
+}

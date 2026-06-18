@@ -1,0 +1,105 @@
+*{
+  scroll-behavior: smooth;
+  outline: none; border: none;
+  list-style: none;
+  font-family: poppins;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+@font-face {
+  font-family: poppins;
+  src: url(assets/fonts/font_style/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: poppins-mid;
+  src: url(../assets/fonts/font_style/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: bajj;
+  src: url(../assets/fonts/font_style/BaiJamjuree-Medium.ttf);
+}
+
+
+
+.contact-section{
+  background-image: url(../assets/images/bg-shape.svg);
+  background-size: cover; background-repeat: no-repeat;
+}
+
+.contact-section-header-col{
+  width: 10rem; padding: 0.5rem 1rem;
+  border: 0.1rem rgba(255, 255, 255, 0.1) solid;
+  background-image: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) 
+  -61.8%, rgba(41, 190, 61, 0.2) 100%);
+}
+
+.contact-section-header-col 
+span{color: aliceblue; font-weight: bold;}
+
+
+.contact-section-col-txt h2{
+  font-family: bajj;
+  font-size: clamp(1.5rem, 4vw + 1rem, 2.5rem);
+}
+.contact-section-col-txt em{font-family: bajj;}
+
+.contact-section-col-txt h3 a{text-decoration: underline;}
+
+.contact-social-wrapper button{
+  cursor: pointer;
+  padding-top: 0.3rem; font-size: 1.5rem;
+  width: 3rem; height: 3rem; border-radius: 6rem;
+  border: 0.1rem rgba(255, 255, 255, 0.1) solid;
+  background-image: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) 
+  -61.8%, rgba(204, 235, 235, 0.01) 100%);
+  transition: 0.30s all ease-in-out;
+}
+
+.contact-social-wrapper button:hover{
+  background: #ffffff; color: #000;
+}
+
+.contact--form{
+  width: 30rem; height: auto; border-radius: 1rem;
+  border: 0.1rem rgba(255, 255, 255, 0.1) solid;
+  background-image: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) 
+  -61.8%, rgba(204, 235, 235, 0.01) 100%);
+}
+
+.input-col-wrapper input{
+  width: 100%; height: 3rem; border-radius: 0.2rem;
+  border: 0.1rem solid #999; padding: 0 0.5rem;
+}
+
+.input-col-wrapper textarea{
+  resize: none; color: #ffffff;
+  width: 100%; height: 6rem; border-radius: 0.2rem;
+  border: 0.1rem solid #999; padding: 0.2rem 0.5rem;
+}
+
+.contact--form button{
+  background: #45e77b;
+  justify-content: center;
+  transition: 0.30s all ease-in-out;
+  height: 3rem; border-radius: 10rem;
+  width: 10rem; text-align: center;
+}
+
+.contact--form button:hover{background: #23ac50;}
+
+@media (max-width: 1020px) {
+  .contact-section-wrapper{flex-wrap: wrap; gap: 5rem;}
+}
+
+@media (max-width: 800px) {
+  .contact-section{padding: 2rem 2rem;}
+}
+
+@media (max-width: 600px) {
+  .contact--form{width: 100%;}
+  .contact-section{padding: 1rem 1rem;}
+  .contact-section-col-txt h3 a{text-decoration: underline; font-size: 1rem;}
+}

@@ -1,0 +1,23 @@
+*{
+  scroll-behavior: smooth;
+  outline: none; border: none;
+  list-style: none;
+  font-family: poppins;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+@font-face {
+  font-family: poppins;
+  src: url(assets/fonts/font_style/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: poppins-mid;
+  src: url(assets/fonts/font_style/Poppins-Medium.ttf);
+}
+
+body{
+  height: 300vh;
+  background: #111111;
+}

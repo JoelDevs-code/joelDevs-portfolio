@@ -1,0 +1,79 @@
+*{
+  scroll-behavior: smooth;
+  outline: none; border: none;
+  list-style: none;
+  font-family: poppins;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+@font-face {
+  font-family: poppins;
+  src: url(assets/fonts/font_style/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: poppins-mid;
+  src: url(../assets/fonts/font_style/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: bajj;
+  src: url(../assets/fonts/font_style/BaiJamjuree-Medium.ttf);
+}
+
+.service-section-header h3{
+  font-family: bajj;
+  font-size: clamp(1.5rem, 4vw + 1rem, 3.5rem);
+}
+
+.service-header-col{
+  width: 10rem; padding: 0.5rem 1rem;
+  border: 0.1rem rgba(255, 255, 255, 0.1) solid;
+  background-image: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) 
+  -61.8%, rgba(41, 190, 61, 0.2) 100%);
+}
+
+.service-header-col span{
+  color: #ffffff; font-weight: bold;
+}
+
+.service-card{
+  border-radius: 0.5rem;
+  border: 0.1rem rgba(255, 255, 255, 0.1) solid;
+  background-image: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) 
+  -61.8%, rgba(204, 235, 235, 0.01) 100%);
+  transition: 0.30s all ease-in-out;
+}
+
+.service-card:hover{
+  border: 0.1rem rgba(255, 255, 255, 0.3) solid;
+  background-image: linear-gradient(023.51deg, rgba(215, 237, 237, 0.1) 
+  -61.8%, rgba(204, 235, 235, 0.01) 100%);
+  transition: 0.30s all ease-in-out;
+}
+
+.service-card span{color: #a6a7ae;}
+
+.view-service-project{
+  color: aliceblue; border-radius: 6rem;
+  width: 3rem; height: 3rem; cursor: pointer;
+  border: 0.1rem rgba(255, 255, 255, 0.1) solid;
+  background-image: linear-gradient(123.51deg, rgba(215, 237, 237, 0.1) 
+  -61.8%, rgba(41, 190, 61, 0.2) 100%);
+  transition: 0.30s all ease-in-out;
+}
+
+.view-service-project:hover{
+  background-image: linear-gradient(123.51deg, rgba(215, 237, 237, 0.3) 
+  -61.8%, rgba(41, 190, 61, 0.2) 100%);
+  color: #45e77b;
+}
+
+@media (max-width:800px) {
+  .service--section{padding: 4rem 2rem;}
+}
+
+@media (max-width: 600px) {
+  .service-card h4{font-size: 1rem;}
+}
