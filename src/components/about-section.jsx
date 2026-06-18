@@ -14,19 +14,19 @@ function about_section(){
               <div className="profile-img-wrapper"><img src={profile_img}/></div>
               <div className="card-profile-txt font-bold text-center"><h5>Marcel</h5><span>CONSULTATIONS</span></div>
               <div className="email-address text-gray-500 font-bold text-center text-sm">
-                <a className="main-adrress" href="">simonbulus962@gmail.com</a>
+                <a className="main-adrress" href="mailto:simonbulus252@gmail.com">simonbulus252@gmail.com</a>
               </div>
               <div className="social-med-link flex gap-1 items-center">
-                <a href="" className="linkedin text-white">
+                <a href="https://linkedin.com/in/joel-bulus-177712293" target="_blank" className="linkedin text-white">
                   <button className="linkedin-btn"><i className="icon-linkedin-square"></i></button>
                 </a>
-                <a href="" className="linkedin text-white">
+                <a href="https://github.com/JoelDevs-code" target="_blank" className="gitHub text-white">
                   <button className="linkedin-btn"><i className="icon-github"></i></button>
                 </a>
-                <a href="" className="linkedin text-white">
+                <a href="https://x.com/JoeMacex" className="twitter text-white" target="_blank">
                   <button className="linkedin-btn"><i className="icon-twitter"></i></button>
                 </a>
-                <a href="" className="linkedin text-white">
+                <a href="" className="dribbble text-white" target="_blank">
                   <button className="linkedin-btn"><i className="icon-dribbble"></i></button>
                 </a>
               </div>
@@ -36,7 +36,7 @@ function about_section(){
             <div className="about-cap-text-header flex items-center gap-5">
               <i className="icon-circle text-xs text-green-400"></i><span>About Marcel Consultations</span>
             </div>
-            <div className="about-cap-heading"><h2>Inovation & Code Intelligence</h2></div>
+            <div className="about-cap-heading"><h2>Innovation & Code Intelligence</h2></div>
             <div className="about-cap-text-paragrapgh">
               <p>
                 Hello! I'm Marcel, a Software Engineer with 3 years of experience in designing and developing intelligent systems. My

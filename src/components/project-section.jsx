@@ -23,15 +23,15 @@ function project_section(){
                 <div className="project-card-text"><h4 className="text-white font-bold text-2xl">Portfolio Website</h4></div>
               </div>
               <div className="project-card flex flex-col gap-1 px-2 py-2">
-                <div className="project-card-image"><a href=""><img src={rms_image}/></a></div>
+                <div className="project-card-image"><a href=""><img src={portfolio_img}/></a></div>
                 <div className="project-card-text"><h4 className="text-white font-bold text-2xl">Resturant Management System</h4></div>
               </div>
               <div className="project-card flex flex-col gap-1 px-2 py-2">
-                <div className="project-card-image"><a href=""><img src={rms_image}/></a></div>
+                <div className="project-card-image"><a href=""><img src={portfolio_img}/></a></div>
                 <div className="project-card-text"><h4 className="text-white font-bold text-2xl">Resturant Management System</h4></div>
               </div>
               <div className="project-card flex flex-col gap-1 px-2 py-2">
-                <div className="project-card-image"><a href=""><img src={rms_image}/></a></div>
+                <div className="project-card-image"><a href=""><img src={portfolio_img}/></a></div>
                 <div className="project-card-text"><h4 className="text-white font-bold text-2xl">Resturant Management System</h4></div>
               </div>
             </div>

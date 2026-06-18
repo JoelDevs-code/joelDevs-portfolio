@@ -15,12 +15,20 @@ function contact_section(){
               Lets <em className="text-green-400 font-normal">Build </em>
               an Incredible <br></br> Work Together
             </h2>
-            <h3 className="text-white text-2xl"><a href="">simonbulus962@gmail.com</a></h3>
+            <h3 className="text-white text-2xl"><a href="mailto:simonbulus252@gmail.com">simonbulus962@gmail.com</a></h3>
             <div className="contact-social-wrapper flex items-center gap-1">
-              <a href=""><button className="linkedin-soc text-white"><i className="icon-linkedin"></i></button></a>
-              <a href=""><button className="linkedin-soc text-white"><i className="icon-github"></i></button></a>
-              <a href=""><button className="linkedin-soc text-white"><i className="icon-twitter"></i></button></a>
-              <a href=""><button className="linkedin-soc text-white"><i className="icon-dribbble"></i></button></a>
+              <a href="https://linkedin.com/in/joel-bulus-177712293" target="_blank">
+                <button className="linkedin-soc text-white"><i className="icon-linkedin"></i></button>
+              </a>
+              <a href="https://github.com/JoelDevs-code" target="_blank">
+                <button className="linkedin-soc text-white"><i className="icon-github"></i></button>
+              </a>
+              <a href="https://x.com/JoeMacex">
+                <button className="linkedin-soc text-white"><i className="icon-twitter"></i></button>
+              </a>
+              <a href="">
+                <button className="linkedin-soc text-white"><i className="icon-dribbble"></i></button>
+              </a>
             </div>
           </div>
           <form action="" className="contact--form px-2 py-2 flex flex-col gap-1" id="contact-form">
